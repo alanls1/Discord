@@ -1,0 +1,473 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family:  sans-serif;
+    font-weight: 400;
+    scroll-behavior: smooth;
+    background-color: rgb(39, 41, 52);
+    color: rgb(155, 157, 159);
+}
+
+.nav{
+    width: 100%; 
+    background-color: #272934;
+}
+.bar{
+    display: grid;
+    grid-template-columns: 1fr 4fr 0.1fr;
+    align-items: center;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 24px 40px;
+}
+.logo{
+    max-width: 140px;
+    max-height: 40px;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    
+}
+.logo-emojin{
+    max-width: 40px;
+    max-height: 40px;
+}
+.logo-words{
+    margin-left: 16px;
+    max-width: 84px;
+    max-height: 21px;
+}
+.menu{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    color:rgb(155, 157, 159) ;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-right: 16px;
+}
+.item-menu{
+    margin:0  16px;
+    cursor: pointer;
+}
+.item-menu:hover{
+    color:#E8E9F1;
+}
+.premium{
+    color: rgb(255, 195, 79);
+}
+.login{
+    padding: 10px 15px;
+    max-width: 68px;
+    max-height: 39px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0076FF;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* container */
+.container{
+    width: 100%;
+    height: 724px;
+    background-color: #272934; 
+    background: url(/img/soldados.svg) right top no-repeat;
+   
+}
+.section{
+    max-width: 1240px;
+    margin: 105px auto 0;
+    padding-left: 40px;
+    
+}
+
+.section h1{
+    color: white;
+    max-width: 460px;
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+.section p {
+    font-size: 1rem;
+    max-width: 360px;
+    margin-top: 32px;
+    line-height: 24px;
+}
+.section button{
+    font-size: 1rem;
+    color: white;
+}
+.buttonAdd-section{
+    background-color: rgb(57, 148, 255);
+    border: none;
+    border-radius: 8px;
+    padding:20px 40px;
+    margin-right: 16px;
+    margin-top:32px ;
+    max-height: 56px;
+    cursor: pointer;
+    
+}
+.buttonAdd-section:hover{
+    background: rgb(0, 118, 255);
+}
+.buttonSee-section{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 8px;
+    padding:20px 40px;
+    margin-right: 16px;
+    margin-top:32px ;
+    max-height: 56px;
+    cursor: pointer;
+}
+.buttonSee-section:hover{
+    background:#52545D;
+}
+.img-section{
+    margin: 32px 0;
+}
+
+.information{
+    list-style: none;
+    font-size: 0.9rem;
+}
+.item-information{
+    max-height: 24px;
+    margin-bottom: 16px;
+}
+.information img{
+    width: 15px;
+    height: 10px;
+    margin-right: 8px;
+}
+
+/* icons */
+
+.icons{
+    background-color: #1F2129;
+    padding: 40px 0;
+    position: relative;
+}
+.div-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1250px;
+    padding: 0 40px;
+}
+
+
+.icons h3{
+    font-size: 1.6rem;
+    color: #f2f4fb;
+}
+.icons img{
+    max-width: 60px;
+    max-height: 60px;
+    margin-left: 40px;
+}
+
+/* box */
+.div-box{
+    width: 100%;
+    height: 100%;
+}
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    margin: 156px auto ;
+    max-width: 1160px;
+    width: 100%;
+    padding: 0 0px;
+}
+.box h1{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #f2f4fb;
+    max-width: 460px;
+    padding: 20px 0 10px;
+    margin-bottom:16px ;
+}
+.box p{
+    max-width: 460px;
+    font-size: 0.99rem;
+    font-weight: small;
+    line-height: 24px;
+    margin: 16px 0;
+}
+.box button{
+    padding: 0 40px;
+    height: 56px;
+    background: rgb(57, 148, 255);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+ button:hover{
+    background: rgb(0, 118, 255);
+    color: rgb(242, 244, 251);
+    border: none;
+}
+.box .button-transparent{ 
+    padding:0 40px;
+    color:  rgb(155, 157, 159);
+    border:1px solid rgb(85, 87, 98);
+    background: transparent;
+}
+.button-transparent:hover{
+    background: transparent;
+    color: rgb(242, 244, 251);
+    border: 1px solid rgb(85, 87, 98);
+}
+
+
+
+
+.box-img{
+    max-width: 560px;
+    max-height: 386px;
+    margin-left: 70px ;
+    margin-bottom: 50px;
+}
+.box-img img{
+    width: 100%;
+    height: 100%;
+}
+.inverse{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding: 0 0;
+}
+.inverseTitle h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.inverseImg {
+    margin-left: 0px;
+    margin-right: 135px;
+} 
+
+/* server */
+
+.titleH3{
+        margin: 50px auto 170px;
+        max-width: 1160px;
+        text-align: center;
+}
+.titleH3 h3{
+        font-size: 2rem;
+        font-weight: 700;
+}
+
+.div-server{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap:32px ;
+    margin: 0 auto;
+    max-width: 1160px;
+    width: 100%;
+}
+.server{
+    display: flex;
+    align-items: center;
+    background: #17181E;
+    padding: 0 24px;
+    max-width: 218px;
+    width: 218px;
+    height: 90px;
+    border-radius: 5px;
+}
+.server img{
+    width: 40px;
+    height: 40px;
+    margin-left: 0;
+}
+.name-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: left;
+}
+.name-icons p{
+    margin: 8px ;
+    font-size: 0.76rem;
+    font-weight: 900;
+}
+
+.position{
+     position: absolute;
+     top: 50%;
+     left: 10%;
+}
+
+/* informations */  
+
+.informations{
+    margin: 204px auto 0;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1160px;
+}
+.infoH1 {
+    max-width: 360px;
+    color: white;
+}
+.infoH1 button{
+    padding: 0 40px;
+    height: 56px;
+    background: rgb(57, 148, 255);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 56px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+.div-informations{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 40px 140px;
+    
+}
+.div-informations h2 {
+    font-size: 1.3rem;
+    font-weight: 750;
+    max-width: 260px;
+    margin-top: 16px;
+}
+.div-informations p{
+    font-size: 0.9rem;
+    line-height: 23px;
+    max-width: 260px;
+    margin-top: 32px;
+}
+
+/* cards */
+
+.card{
+    max-width: 1160px;
+    margin: 156px auto ;
+    height: 100%;
+}
+
+.title-cards {
+    max-width: 560px;
+    margin: 0 auto 60px;
+    text-align: center;
+}
+.title-cards h1{
+    font-weight: 700;
+    font-size: 2.2rem;
+    color: white;
+    margin-bottom: 32px;
+}
+.title-cards p{
+    font-size: 0.8rem;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-height: 366px;
+    height: 366px;
+}
+.card1{
+    background: #1F2129;
+    padding: 24px;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+}
+.card-img{
+    background-color: rgb(23, 24, 30);
+    margin-bottom: 24px;
+    height: 200px;
+}
+.card-img img{
+    width:250px;
+    max-width: 312px;
+    max-height: 200px; 
+    margin:30px 20px ; 
+}
+
+.card1 h4{
+    margin-bottom:32px ;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: white;
+}
+.cardLink{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 32px;
+}
+.card1 a{
+    text-decoration: none;
+    color: rgb(155, 157, 159);
+    cursor: pointer;
+}
+
+.button-card{
+    padding: 0 40px;
+    height: 56px;
+    background: rgb(57, 148, 255);
+    color: rgb(242, 244, 251);
+    border: none;
+    width: 15%;
+    border-radius: 8px;
+    margin: 80px 470px 0;
+    cursor: pointer;
+    transition:  0.15s ease-out 0s, color, border;
+    background: rgba(255, 255, 255, 0.1);
+    
+}
+.button-card:hover{
+    background: rgba(255, 255, 255, 0.2);
+    color: rgb(242, 244, 251);
+    border: none;
+}
+
+/* footer */
+footer{
+    background: #1F2129;
+    
+}
+footer div{
+    max-width: 1160px;
+    margin: 20px auto 0;
+    padding: 80px 40px;
+    text-align: center;
+    background-image: url(/img/7.svg);
+}
+footer h1{
+    max-width: 560px;
+    margin: 0 auto 32px;
+}
+footer  button{
+    padding: 0 40px;
+    height: 56px;
+    background: rgb(57, 148, 255);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 16px;
+    cursor: pointer;
+}
